@@ -24,18 +24,22 @@ h2{
   background: rgb(61, 255, 120);
 }
 #counter{
-  margin-top: 50px;
-  margin-left: 50px;
+  width: 60%;
+  margin: auto;
+  padding: 20px;
 }
 #container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   padding: 10px 50px;
+  width: 60%;
+  margin: auto;
 }
 .card{
   padding: 20px 5px;
-  border: 1px solid #000;
+  border: 1px solid #818181;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   gap: 5px;
